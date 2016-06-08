@@ -1,0 +1,23 @@
+html, body{
+	font-family : 'Segoe UI';
+	background-color : #f1f1f1;
+	
+	height : 100%;
+	width : 100%;
+}
+
+input.form-control{
+	font-family : 'Segoe UI';
+}
+
+@import '../components/scss/constants/constants';
+@import '../components/scss/globals/utils';
+@import '../components/scss/globals/forms';
+@import '../components/scss/globals/buttons';
+@import '../components/scss/globals/table';
+@import '../components/scss/globals/paginator';
+
+@import '../includes/header/header';
+@import '../includes/side-bar/side-bar';
+
+@import '../components/login/login';

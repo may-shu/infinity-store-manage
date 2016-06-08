@@ -1,0 +1,33 @@
+.btn{
+    padding: 6px 12px;
+    
+    font-size: 14px;
+    font-weight: 600;
+    
+    line-height: 1.42857143;
+    text-align: center;
+    
+    cursor: pointer;
+    user-select: none;
+
+    border: 1px solid transparent;
+    border-radius: 1px;
+    
+    color : #fff;
+    
+    transition : background-color $theme-animation-fast-duration ;
+    
+    &.btn-primary{
+    	background-color : $theme-primary-color;
+    	color : #fff;
+    	
+    	&:hover{
+    		background-color : #8d72d7;
+    		color : #fff;
+    	}
+    }
+    
+    &.btn-block{
+    	width : 100%;
+    }
+}

@@ -1,0 +1,37 @@
+.control-group{
+	margin-bottom : 10px;
+	position : relative;
+	
+	.bar{
+		position : absolute;
+		
+		width : 0;
+		height : 1px;
+		
+		background-color : $theme-primary-color;
+		transition : all $theme-animation-fast-duration ;
+	}	
+}
+
+input.form-control{
+    
+    border : none;
+
+    display: block;
+    
+    padding: 6px 12px;
+    
+    width: 100%;
+    font-size: 14px;
+    
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    outline : none;
+    
+    position : relative;
+    
+    &:focus{
+    	+.bar{
+    		width : 100%;
+    	}
+    }
+}

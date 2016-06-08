@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Infinity Store</title>
+		
+		<link type="text/css" rel="stylesheet" href="resources/external/css/bootstrap.min.css"/>
+		<link type="text/css" rel="stylesheet" href="resources/external/css/ico-moon.css"/>
+		<link type="text/css" rel="stylesheet" href="resources/app/merged/final.css"/>
+	</head>
+	
+	<body data-ng-controller="IndexController">
+		<div data-ng-include="'resources/app/includes/header/header.html'"></div>
+		<div data-ng-include="'resources/app/includes/side-bar/side-bar.html'"></div>
+		<div data-ng-view></div>
+		
+		<script type="text/javascript" src="resources/external/js/angular/angular.js"></script>
+		<script type="text/javascript" src="resources/external/js/angular/angular-route.js"></script>
+		
+		<script type="text/javascript" src="resources/external/js/require/require.js" data-main="resources/app/require/main"></script>
+	</body>
+</html>
